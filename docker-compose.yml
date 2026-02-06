@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+  fshop-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fshop-app
+    ports:
+      - "3000:5000"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
