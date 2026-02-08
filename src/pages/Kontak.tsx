@@ -56,7 +56,7 @@ const Kontak: React.FC = () => {
               <ContactItem 
                 icon={<Phone size={28} />}
                 label="WhatsApp"
-                value="+62 818 1280 88448"
+                value="+62 857 8101 3830"
                 subtext="Chat aktif: 08.00 - 17.00 WIB"
                 bgColor="bg-accent/20"
                 iconColor="text-primary"
@@ -94,7 +94,7 @@ const Kontak: React.FC = () => {
               Cara tercepat untuk cek stok dan melakukan pemesanan grosir harian.
             </p>
             <a 
-              href="https://wa.me/62818128088448" 
+              href="https://wa.me/6285781013830" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-full bg-[#25D366] text-white py-6 rounded-3xl font-black text-lg shadow-xl shadow-green-500/30 transition-all hover:scale-[1.03] hover:shadow-green-500/40 active:scale-95 flex items-center justify-center gap-3"
@@ -135,7 +135,7 @@ const Kontak: React.FC = () => {
           />
           <FAQCard 
             question="Apakah bisa beli eceran?"
-            answer="Mohon maaf, FSHOP Snack & Grosir hanya melayani pembelian sistem grosir untuk distributor, agen, warung, dan UMKM."
+            answer="Mohon maaf, FSHOP & Grosir hanya melayani pembelian sistem grosir untuk distributor, agen, warung, dan UMKM."
           />
         </div>
       </section>
