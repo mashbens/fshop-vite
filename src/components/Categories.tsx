@@ -1,21 +1,22 @@
 
 import React from 'react';
 
+
 const categories = [
   {
     title: 'Snack & Biskuit',
     desc: 'Aneka camilan rumahan & biskuit kalengan',
-    img: 'src/assets/hero-image.png'
+    img: '/assets/hero-image.png'
   },
   {
     title: 'Bahan Baku',
     desc: 'Minyak goreng, tepung terigu & gula pasir',
-    img: 'src/assets/hero-image2.png'
+    img: '/assets/hero-image2.png'
   },
   {
     title: 'Parabot',
     desc: 'Peralatan dapur & peralatan rumah tangga',
-    img: 'src/assets/hero-image3.png'
+    img: '/assets/hero-image3.png'
   }
 ];
 
