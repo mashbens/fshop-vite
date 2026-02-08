@@ -5,17 +5,17 @@ const categories = [
   {
     title: 'Snack & Biskuit',
     desc: 'Aneka camilan rumahan & biskuit kalengan',
-    img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuB8Q0s_LQAeufRLknASg6XT4sw0BSiyrQb8xJYMUfBCy_3ibYVse8vkweFPg0ssWUNmZs9CMN5tSM8v0_76MXw6ruf1ZKD3NWDj-jV2ky2-4BUt0s_D8jE4Zddc9m6JJNAci22OxAa7fbLti8a_AG7jlAJurBFNjtNAWZtjl5FWA_UUshl_qHyw6-vrTF1x2wl1BPCaA5MrlPSTuI1OquBKGzeJDsAcnz17ksh2SkokVTsmn5fvsgcCQibiCozfWG8wsh8RdUEAEpZT'
+    img: 'src/assets/hero-image.png'
   },
   {
     title: 'Bahan Baku',
     desc: 'Minyak goreng, tepung terigu & gula pasir',
-    img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCJ2xUKENAg4JTxMHhUD27daYIZCg55zfSTda4ZyIR23oPkSaam7n9zJz0q-ip0e_pM0fPr0GKY_kFUcsi1QE8yNFqHQ-2WPqsHZjegexuLOIohI9prkGFXnhKVFNNjy_XCzEHZhNh8gcIHC909xkIf4j3ApUun-A_HqZul8d3M8LNBRTkXBqMsK9yG7DYAJNBC-AQZ8feijQI-TStxKT1KrYBbdu-hnUhkt_EiQD5S2ziK0W6yYjsZrbe1hdzPQEHfll4yQgY967lY'
+    img: 'src/assets/hero-image2.png'
   },
   {
-    title: 'Kebutuhan Toko',
-    desc: 'Stok lengkap untuk warung & kelontong',
-    img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCUcbrl5xILg9fFz-qV3g5xtvY7OIS1upB0Z0zZCs-N8OnCdjGpNPglZ3DJDgtXd96STc-DJvML8e7SO_4C0dpvr1qJLxDI8aUfwvqycF9ACWWSXYVkpMR_XxDQjzEGYOUs6M0Y-iYP6oDcNDdvCowpccV3pa-zqMbSBaJfHaUzPsMTmBkhvh3BZ1rQlgda4cd-Aewdl1OgC1i3g9ARIn1MvW-nF2e4ItbpaWHreBS1xVEH9n_LXa0lpfFVTLRdTAzia89JkMkX5Wfl'
+    title: 'Parabot',
+    desc: 'Peralatan dapur & peralatan rumah tangga',
+    img: 'src/assets/hero-image3.png'
   }
 ];
 
@@ -25,9 +25,9 @@ const Categories: React.FC = () => {
       <div className="flex flex-col md:flex-row items-end justify-between mb-14 gap-6">
         <div className="flex flex-col gap-3">
           <h2 className="text-4xl font-black tracking-tight">Kategori Produk</h2>
-          <p className="text-dark-text/60 max-w-md font-medium">Temukan berbagai kebutuhan bahan baku dan snack berkualitas dengan harga grosir terbaik.</p>
+          <p className="text-dark-text/60 max-w-md font-medium">Temukan berbagai kebutuhan bahan baku, parabot, dan snack berkualitas dengan harga grosir terbaik.</p>
         </div>
-        <a href="#" className="text-sm font-bold text-primary flex items-center gap-2 hover:gap-4 transition-all">
+        <a href="/produk" className="text-sm font-bold text-primary flex items-center gap-2 hover:gap-4 transition-all">
           Lihat Katalog Lengkap
           <span className="material-symbols-outlined">arrow_forward</span>
         </a>

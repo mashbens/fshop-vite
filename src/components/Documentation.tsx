@@ -3,17 +3,29 @@ import React from 'react';
 
 const docImages = [
   {
-    url: 'https://lh3.googleusercontent.com/aida-public/AB6AXuATH2C8aFLBlmXG4ohGlj5yTjnOA9h441s5vsLRphhgqhPKjY33N_acZQVGRYH28ZRsuTg2aB9A9IrRl-KsXxe7NG2ki86OqXB-8xwnE2SHIMzDshbuA61Zv3KH21cOc0bIrBrjUGjzpm8kng9kqWshUexBK_5WP1JboWA2xb0e35NJ4GUgMvkQjTEO4oA18MCeG7gcBqNI-YpzFuGlyEcEHOmDiRHguQ3qka16zFrw6Y5ymiJTbl1FvuIQbjtgAJC4fqeI6VyxKyL5',
+    url: 'src/assets/loading.jpeg',
     title: 'Proses Muat Gudang'
   },
   {
-    url: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDtb7iKDdwIt5jrlM2dodoNIJLuliMzffP85mC-a3jFCATQzaldb1sTTCNAcE5lnvQGw7eqI108y2--5alodlCdgy4p_F34mtT22H4srZYxxQYZvIxk6rhXotmjxHjIZylPSGWMqKJmsBd5YkU6tyGigqBYlkcWmb5LX1xn-aKpCDgGxJfuSAtiVItRv2pk1SausZ1YWixJTvZzR9L3Ucuc7W38kRNLw7E7FtTtjBUgwPzshMcn2FmUZ-QTk8HiGAGvcBdytlrlUIfj',
-    title: 'Armada Pengiriman Siap Jalan'
+    url: 'src/assets/pengiriman.jpeg',
+    title: 'Pengiriman'
   },
   {
-    url: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBuaU7t3g5PuV2rgqN3KBvULZfk0uEjHF6o2UJEhqLZhCJqS_Gxa1CY3YdSwEov3yVXl7SjSnXEP0J_VgM-B8NDZ8TATudWQZfsO-tKzZG16jctlpXGtqAQindH5ZEj2oFhvza8IeQRSgiWNN0t-HI17ZOuHn-EmAxq5DjaD8Jjj6eYn7PzrkhDHu3jtHgm3xWKQDF6uOuzE2SEO9hXyJkytRYPmuRyJNHLV81dxuTSF9S5hKYiM-MJu2dsF9S_Yvenhp1ELUVlTyiH',
+    url: 'src/assets/pengiriman3.jpeg',
     title: 'Distribusi ke Customer'
-  }
+  },
+  {
+    url: 'src/assets/pengiriman4.jpeg',
+    title: 'Distribusi ke Customer'
+  },
+  {
+    url: 'src/assets/pengiriman5.jpeg',
+    title: 'Pengiriman'
+  },
+  {
+    url: 'src/assets/pengiriman6.jpeg',
+    title: 'Proses Muat Gudang'
+  },
 ];
 
 const Documentation: React.FC = () => {
