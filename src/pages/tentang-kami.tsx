@@ -23,13 +23,13 @@ const TentangKami: React.FC = () => {
               Sejarah & Dedikasi
             </span>
             <h1 className="text-4xl lg:text-6xl font-extrabold text-dark leading-tight">
-              Tentang <span className="text-primary font-black">FSHOP <br className="hidden lg:block"/> Snack & Grosir</span>
+              Tentang <span className="text-primary font-black">Fitshop <br className="hidden lg:block"/> Grosir</span>
             </h1>
             <div className="space-y-4 text-gray-600 leading-relaxed text-lg">
               <p>
                 Berawal dari visi untuk mempermudah akses stok bagi UMKM dan toko kelontong, 
-                FSHOP Snack & Grosir telah berkembang menjadi agen distribusi terpercaya di wilayah Jabodetabek. 
-                Kami mengkhususkan diri dalam penyediaan bahan baku makanan, minyak goreng, tepung terigu, 
+                FSHOP Grosir telah berkembang menjadi agen distribusi terpercaya di wilayah Jabodetabek. 
+                Kami mengkhususkan diri dalam penyediaan bahan baku makanan, minyak goreng, tepung terigu, parabot,
                 hingga aneka snack rumahan berkualitas tinggi.
               </p>
               <p>
@@ -100,7 +100,7 @@ const TentangKami: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold text-dark mb-4">Kenapa Memilih Kami?</h2>
           <p className="text-gray-500 max-w-2xl mx-auto mb-16 text-lg">
-            Keunggulan layanan yang membuat FSHOP Snack & Grosir berbeda dari distributor lainnya.
+            Keunggulan layanan yang membuat FSHOP Grosir berbeda dari distributor lainnya.
           </p>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -133,7 +133,7 @@ const TentangKami: React.FC = () => {
         <div className="w-full h-[300px] md:h-[500px] rounded-[3rem] overflow-hidden shadow-lg border-8 border-white">
           <img 
             src="https://picsum.photos/seed/warehouse/1200/600" 
-            alt="FSHOP Warehouse" 
+            alt="FitSHOP Warehouse" 
             className="w-full h-full object-cover"
           />
         </div>
@@ -157,7 +157,7 @@ const TentangKami: React.FC = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
               <a 
-                href="https://wa.me/62818128088448"
+                href="https://wa.me/6285781013830"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-3 bg-[#25D366] hover:bg-[#1ebe57] transition-all px-10 py-5 rounded-2xl font-bold text-lg shadow-xl shadow-green-500/20"

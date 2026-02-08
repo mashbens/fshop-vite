@@ -18,7 +18,7 @@ const CTABanner: React.FC = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-6 mt-4">
             <a 
-              href="https://wa.me/62818128088448" 
+              href="https://wa.me/6285781013830" 
               className="bg-[#25D366] text-white px-10 py-5 rounded-2xl font-bold text-lg hover:bg-[#20bd5a] transition-all shadow-xl shadow-green-500/20 flex items-center gap-3"
             >
               <span className="material-symbols-outlined">chat</span>

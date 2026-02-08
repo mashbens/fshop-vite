@@ -19,7 +19,7 @@ const Header: React.FC = () => {
           <div className="bg-primary p-2 rounded-xl flex items-center justify-center shadow-sm">
             <span className="material-symbols-outlined text-white text-2xl">storefront</span>
           </div>
-          <h2 className="text-dark-text text-xl lg:text-2xl font-extrabold tracking-tight">Khaira Dan Ali Store</h2>
+          <h2 className="text-dark-text text-xl lg:text-2xl font-extrabold tracking-tight">Fitshop Grosir</h2>
         </Link>
         
         <nav className="hidden md:flex items-center gap-10">
@@ -37,7 +37,7 @@ const Header: React.FC = () => {
         </nav>
 
         <a 
-          href="https://wa.me/62818128088448" 
+          href="https://wa.me/6285781013830" 
           target="_blank"
           className="bg-secondary text-white px-6 py-2.5 rounded-full font-bold text-sm tracking-wide transition-all hover:shadow-lg hover:shadow-secondary/20 active:scale-95 flex items-center gap-2"
         >
