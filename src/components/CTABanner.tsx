@@ -37,7 +37,7 @@ const CTABanner: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="flex flex-col items-center gap-6"
           >
-            <h2 className="text-1xl lg:text-5xl font-black text-dark-text leading-tight tracking-tighter">
+            <h2 className="text-4xl lg:text-5xl font-black text-dark-text leading-tight tracking-[1px]">
               Siap Kembangkan <br />
               <span className="text-primary italic">Bisnis Anda?</span>
             </h2>
@@ -97,7 +97,7 @@ const CTABanner: React.FC = () => {
              onError={(e) => {
                 (e.target as HTMLImageElement).src = "/assets/1.png";
              }}
-             className="w-48 rounded-2xl shadow-2xl rotate-3" 
+             className="w-full rounded-2xl shadow-2xl rotate-3" 
              alt="Mascot Mobile" 
            />
         </div>
