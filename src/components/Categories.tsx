@@ -6,17 +6,17 @@ const categories = [
   {
     title: 'Snack & Biskuit',
     desc: 'Aneka camilan rumahan & biskuit kalengan',
-    img: '/assets/hero-image.png'
+    img: '/assets/hero-image.webp'
   },
   {
     title: 'Bahan Baku',
     desc: 'Minyak goreng, tepung terigu & gula pasir',
-    img: '/assets/hero-image2.png'
+    img: '/assets/hero-image2.webp'
   },
   {
     title: 'Parabot',
     desc: 'Peralatan dapur & peralatan rumah tangga',
-    img: '/assets/hero-image3.png'
+    img: '/assets/hero-image3.webp'
   }
 ];
 

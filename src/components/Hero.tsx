@@ -50,9 +50,9 @@ const Hero: React.FC = () => {
         <div className="order-1 lg:order-2">
           <HeroCarousel 
             images={[
-              '/assets/hero-image.png',
-              '/assets/hero-image2.png',
-              '/assets/hero-image3.png',
+              '/assets/hero-image.webp',
+              '/assets/hero-image2.webp',
+              '/assets/hero-image3.webp',
             ]}
             autoPlayInterval={5000}
           />

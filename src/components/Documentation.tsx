@@ -3,27 +3,27 @@ import React from 'react';
 
 const docImages = [
   {
-    url: '/assets/loading.jpeg',
+    url: '/assets/loading.webp',
     title: 'Proses Muat Gudang'
   },
   {
-    url: '/assets/pengiriman.jpeg',
+    url: '/assets/pengiriman.webp',
     title: 'Pengiriman'
   },
   {
-    url: '/assets/pengiriman3.jpeg',
+    url: '/assets/pengiriman3.webp',
     title: 'Distribusi ke Customer'
   },
   {
-    url: '/assets/pengiriman4.jpeg',
+    url: '/assets/pengiriman4.webp',
     title: 'Distribusi ke Customer'
   },
   {
-    url: '/assets/pengiriman5.jpeg',
+    url: '/assets/pengiriman5.webp',
     title: 'Pengiriman'
   },
   {
-    url: '/assets/pengiriman6.jpeg',
+    url: '/assets/pengiriman6.webp',
     title: 'Proses Muat Gudang'
   },
 ];
