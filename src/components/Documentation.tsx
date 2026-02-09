@@ -38,10 +38,10 @@ const Documentation: React.FC = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
         {docImages.map((img, idx) => (
-          <div key={idx} className="group relative overflow-hidden rounded-[2.5rem] aspect-[4/3] shadow-lg border-4 border-white">
-            <img className="w-full h-full object-cover" src={img.url} alt={img.title} />
+          <div key={idx} className="group relative overflow-hidden rounded-[2.5rem] aspect-[4/3] shadow-lg border-4 border-white ">
+            <img className="w-full h-full object-cover w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" src={img.url} alt={img.title} />
             <div className="absolute inset-0 bg-gradient-to-t from-dark-text/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             <div className="absolute bottom-6 left-6 right-6 text-white text-sm font-bold opacity-0 group-hover:opacity-100 transition-all translate-y-2 group-hover:translate-y-0">
               {img.title}

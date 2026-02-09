@@ -1,17 +1,16 @@
 
 <!DOCTYPE html>
 <html lang="id">
-  <head>
+<head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FitSHOP Grosir - Distributor Terpercaya</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     
     <!-- Google Fonts: Plus Jakarta Sans -->
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     
-    <!-- Material Symbols Outlined - Menggunakan link versi terbaru -->
+    <!-- Material Symbols Outlined -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     
     <script>
@@ -28,6 +27,11 @@
             fontFamily: {
               sans: ["Plus Jakarta Sans", "sans-serif"],
             },
+            borderRadius: {
+              "xl": "1rem",
+              "2xl": "1.5rem",
+              "3xl": "2.5rem",
+            },
           },
         },
       }
@@ -37,39 +41,27 @@
         background-color: #FCF8F4;
         margin: 0;
         font-family: 'Plus Jakarta Sans', sans-serif;
+        overflow-x: hidden;
       }
-
-      /* CSS Penting: Memastikan elemen dengan class ini benar-benar menggunakan font ikon */
       .material-symbols-outlined {
-        font-family: 'Material Symbols Outlined' !important;
-        font-weight: normal;
-        font-style: normal;
-        font-size: 24px;
-        line-height: 1;
-        letter-spacing: normal;
-        text-transform: none;
-        display: inline-block;
-        white-space: nowrap;
-        word-wrap: normal;
-        direction: ltr;
-        /* -webkit-font-feature-settings: 'liga'; */
-        -webkit-font-smoothing: antialiased;
         font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
       }
     </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@^19.2.4",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
-    "react/": "https://esm.sh/react@^19.2.4/"
-  }
-}
-</script>
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@^19.2.4",
+        "react-dom": "https://esm.sh/react-dom@^19.2.4",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+        "react/": "https://esm.sh/react@^19.2.4/",
+        "framer-motion": "https://esm.sh/framer-motion@^11.11.11",
+        "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
+      }
+    }
+    </script>
 </head>
-  <body>
+<body>
     <div id="root"></div>
-    <!-- Pastikan path ini sesuai dengan file di folder src Anda -->
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <script type="module" src="./index.tsx"></script>
+</body>
 </html>
