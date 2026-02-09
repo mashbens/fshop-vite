@@ -118,7 +118,7 @@ const FeatureCard = ({ f, idx }: { f: typeof featureData[0], idx: number }) => {
 
 const Features: React.FC = () => {
   return (
-    <section className="relative py-32 lg:py-20 overflow-hidden bg-transparent">
+    <section className="relative py-20 lg:py-20 overflow-hidden bg-transparent">
       {/* Background Animated Blobs */}
       <div className="absolute top-0 left-0 w-full h-full -z-10">
         <motion.div 
@@ -150,7 +150,7 @@ const Features: React.FC = () => {
           <span className="bg-dark-text text-white px-6 py-2 rounded-full text-[10px] font-black uppercase tracking-[0.4em]">
             Mengapa Memilih Kami
           </span>
-          <h2 className="text-4xl lg:text-5xl font-black tracking-tighter text-dark-text text-center lg:leading-[1.2]">
+          <h2 className="text-4xl lg:text-5xl font-black tracking-[1px] text-dark-text text-center lg:leading-[1.2] ">
             Kualitas Terbaik, <br /> <span className="text-primary italic">Harga Bersahabat.</span>
           </h2>
           <div className="w-20 h-1.5 bg-primary/20 rounded-full" />
