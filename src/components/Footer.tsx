@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
               <div className="bg-primary p-2 rounded-xl">
                 <span className="material-symbols-outlined text-white text-xl">storefront</span>
               </div>
-              <h2 className="text-dark-text text-2xl font-extrabold tracking-tight">FitSHOP & Grosir</h2>
+              <h2 className="text-dark-text text-2xl font-extrabold tracking-tight">Fitshop Grosir</h2>
             </div>
             <p className="text-dark-text/60 mb-10 max-w-sm leading-relaxed">
               Distributor terpercaya untuk bahan baku makanan dan snack, bahan baku & parabot di Jabodetabek. Melayani kebutuhan grosir UMKM dan toko kelontong dengan harga terbaik.
